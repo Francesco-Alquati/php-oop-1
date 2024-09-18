@@ -14,4 +14,11 @@
             return $this->title." ".$this->genre." ".$this->year;
         }
     }
+
+    $tts = new movie('The Truman Show', 'Comedy/Sci-fi', 1998);
+    $atsv = new movie('Spiderman-Man: Across the Spider-Verse', 'Action/Comedy', 2023);
+
+    echo $tts->getMovieInfo();
+    echo "<hr>";
+    echo $atsv->getMovieInfo();
 ?>
